@@ -19,17 +19,16 @@ Esta versão foi baseada no kit em MDF da *Usinainfo*, mas conta com **otimizaç
 |Quantidade|Componente|Descrição|Valor Unitário|
 |:---------|:---------|:--------|:-------------|
 | 1 | Caixinha MDF da useless box | R$30,00 |
-| 1 |  Micro Servo 9g Tower Pro MG90S 180° | R$ |
-| 1 | Arduino Uno R3  | R$ |
-| 1 | Micro Servo Motor 9g SG90 180° | R$ |
-| 1 | Protoboard 170 Pontos | R$ |
-| 15 | Jumper Premium para Protoboard Macho-Mach | R$ |
-| 1 | Chave Alavanca MTS-102 3T 2 Posições | R$ |
-| 1 | Jack P4 Plástico | R$ |
-| 1 | Fonte de Alimentação Chaveada | R$ |
-| 1 | Parafusos e Espaçadores | R$ |
+| 1 |  Micro Servo 9g Tower Pro MG90S 180° | R$19,00 |
+| 1 | Arduino Uno R3  | Emprestao |
+| 1 | Micro Servo Motor 9g SG90 180° | R$68,00 |
+| 1 | Protoboard 170 Pontos | R$6,90 |
+| 10 | Jumper Premium para Protoboard Macho-Mach | R$7,00 |
+| 1 | Chave Alavanca MTS-102 3T 2 Posições | R$9,30 |
+| 1 | Jack P4 Plástico | R$5,00 |
+| 1 | Fonte de Alimentação Chaveada | R$40,00 |
 
-> Total Gasto: R$140,00
+> Total Gasto: R$185,20
 
 ---
 
@@ -43,6 +42,9 @@ Esta versão foi baseada no kit em MDF da *Usinainfo*, mas conta com **otimizaç
 
 > ⚠️ **IMPORTANTE:** O pino GND do Arduino **deve** estar interligado ao pino Negativo (GND) da fonte externa de 6V para garantir o funcionamento correto dos sinais PWM dos servos.
 
+### TinkerCad do Projeto
+<img width="768" height="491" alt="caixa-inutil-esquema-de-ligacaoV2-768x491" src="https://github.com/user-attachments/assets/557d12f7-0873-42ac-8926-faf3f6595959" />
+
 ---
 
 ## 💾 Bibliotecas Necessárias
@@ -52,7 +54,7 @@ Para o controle suave de velocidade dos servos motores, este projeto utiliza a b
 
 ---
 
-## 📝 Como Rodar o Projeto
+## Como Rodar o Projeto
 
 1. Faça o download ou clone este repositório.
 2. Instale a biblioteca `VarSpeedServo` na sua IDE do Arduino.

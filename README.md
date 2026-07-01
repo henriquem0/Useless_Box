@@ -16,8 +16,8 @@ Esta versão foi baseada no kit em MDF da *Usinainfo*, mas conta com **otimizaç
 
 ## 🛠️ Componentes Utilizados
 
-|Quantidade|Componente|Descrição|Valor Unitário|
-|:---------|:---------|:--------|:-------------|
+|Quantidade|Componente|Valor Unitário|
+|:---------|:---------|:-------------|
 | 1 | Caixinha MDF da useless box | R$30,00 |
 | 1 |  Micro Servo 9g Tower Pro MG90S 180° | R$19,00 |
 | 1 | Arduino Uno R3  | Emprestao |

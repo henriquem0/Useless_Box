@@ -50,7 +50,7 @@ Esta versão foi baseada no kit em MDF da *Usinainfo*, mas conta com **otimizaç
 ## 💾 Bibliotecas Necessárias
 
 Para o controle suave de velocidade dos servos motores, este projeto utiliza a biblioteca:
-* **[VarSpeedServo](https://github.com/netinvent/VarSpeedServo)** (Necessário instalação manual via arquivo .ZIP na IDE do Arduino).
+* **[VarSpeedServo]([https://github.com/netinvent/VarSpeedServo](https://www.usinainfo.com.br/blog/wp-content/uploads/2019/10/VarSpeedServo.zip))** (Necessário instalação manual via arquivo .ZIP na IDE do Arduino).
 
 ---
 

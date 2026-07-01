@@ -1,7 +1,21 @@
-# Useless_Box
-Useless Box Arduino é projeto desenvolvido com o intuito de entreter as pessoas através de sua “personalidade” e suas reações parcialmente espontâneas à estímulos externos.
+# Useless Box Arduino (Caixa Inútil com Personalidade) 🤖📦
 
-# Tabela de Componentes 
+Este projeto consiste na montagem e programação de uma **Useless Box** (Caixa Inútil) utilizando a plataforma Arduino. A proposta divertida do projeto é uma caixa que possui um interruptor (chave alavanca) e, toda vez que uma pessoa tenta ligá-la, um braço mecânico interno (mãozinha) sai de dentro da caixa e desliga o interruptor sozinho.
+
+Esta versão foi baseada no kit em MDF da *Usinainfo*, mas conta com **otimizações exclusivas de software e hardware** para tornar o funcionamento mais robusto e simplificado.
+
+> O Código utilizado no arduino UNO se encontra na pasta "CODIGO"
+---
+
+## 🚀 Diferenciais desta Versão
+
+* **Sem Terceiro Motor (Versão Compacta):** O projeto original utilizava um terceiro motor para erguer uma bandeira. Esta versão foi simplificada para utilizar apenas **2 servos motores** (Mão e Tampa), economizando espaço interno e simplificando a fiação.
+* **7 Reações com Personalidade:** A caixa conta com 7 comportamentos diferentes programados passo a passo (ataques rápidos, hesitações, pausas dramáticas e "tremidas" na tampa).
+
+---
+
+## 🛠️ Componentes Utilizados
+
 |Quantidade|Componente|Descrição|Valor Unitário|
 |:---------|:---------|:--------|:-------------|
 | 1 | Caixinha MDF da useless box | R$30,00 |
@@ -17,4 +31,33 @@ Useless Box Arduino é projeto desenvolvido com o intuito de entreter as pessoas
 
 > Total Gasto: R$140,00
 
-# Descrição do Projeto
+---
+
+## 🔌 Esquema de Ligação (Pinagem)
+
+| Componente | Pino no Arduino | Conexão de Energia |
+| :--- | :--- | :--- |
+| **Servo da Mão** | Digital 3 (PWM) | Positivo e Negativo na Fonte Externa (6V) |
+| **Servo da Tampa**| Digital 5 (PWM) | Positivo e Negativo na Fonte Externa (6V) |
+| **Chave Alavanca**| Digital 8 | Pino central no GND / Extremidade no Pino 8 |
+
+> ⚠️ **IMPORTANTE:** O pino GND do Arduino **deve** estar interligado ao pino Negativo (GND) da fonte externa de 6V para garantir o funcionamento correto dos sinais PWM dos servos.
+
+---
+
+## 💾 Bibliotecas Necessárias
+
+Para o controle suave de velocidade dos servos motores, este projeto utiliza a biblioteca:
+* **[VarSpeedServo](https://github.com/netinvent/VarSpeedServo)** (Necessário instalação manual via arquivo .ZIP na IDE do Arduino).
+
+---
+
+## 📝 Como Rodar o Projeto
+
+1. Faça o download ou clone este repositório.
+2. Instale a biblioteca `VarSpeedServo` na sua IDE do Arduino.
+3. Abra o arquivo `.ino` na IDE e faça o upload para o seu Arduino Uno.
+4. Conecte a alimentação externa de 6V para os motores e divirta-se!
+
+---
+Desenvolvido para fins de estudo em robótica e lógica de programação com Arduino.

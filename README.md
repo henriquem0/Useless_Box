@@ -63,3 +63,14 @@ Para o controle suave de velocidade dos servos motores, este projeto utiliza a b
 
 ---
 Desenvolvido para fins de estudo em robótica e lógica de programação com Arduino.
+
+---
+
+## Vídeo de Demonstração do Projeto
+[Vídeo explicativo](https://drive.google.com/file/d/11uIZYdIrdTmP9-IjPGITfmgydV3Nwt2N/view?usp=sharing)
+<img width="899" height="975" alt="IMG-20260702-WA0030" src="https://github.com/user-attachments/assets/e89a9650-e61e-4924-ab78-dcc59967066f" />
+
+<img width="4000" height="2252" alt="20260702_182606" src="https://github.com/user-attachments/assets/24506f59-89c4-4d2b-9568-cc5e95b08457" />
+
+---
+

@@ -20,7 +20,7 @@ Esta versão foi baseada no kit em MDF da *Usinainfo*, mas conta com **otimizaç
 |:---------|:---------|:-------------|
 | 1 | Caixinha MDF da useless box | R$30,00 |
 | 1 |  Micro Servo 9g Tower Pro MG90S 180° | R$19,00 |
-| 1 | Arduino Uno R3  | Emprestao |
+| 1 | Arduino Uno R3  | Emprestado |
 | 1 | Micro Servo Motor 9g SG90 180° | R$68,00 |
 | 1 | Protoboard 170 Pontos | R$6,90 |
 | 10 | Jumper Premium para Protoboard Macho-Mach | R$7,00 |
